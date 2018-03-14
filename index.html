@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>BusyBus</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <main> 
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14457.091486755762!2d-77.33449033698952!3d25.058738933353634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbs!4v1520983284412" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="first"> <!-- STICKY -->
+                <a>All Lines</a>
+                <a href="index.html">Favourites</a>
+            </div>
+            <div class="bus-stop">
+                <h3 role="heading" aria-level="positive integer">Washington & State</h3>
+            </div>
+            <section role="region" aria-label="section" class="route-info">
+                <div class="route-data">
+                    <div class="direction">
+                        <h4>Eastbound</h4>
+                    </div>
+                    <div>
+                        <h3>60</h3>
+                        <p>Randolph & Harbor Dr <!-- <br><span>Next at o'clock</span> --></p>
+                        <h3><a href=""> Now <br><span>and in 20, 40 mins</span></a></h3>
+                    </div>
+                    <div id="divider"></div>
+                    <div>
+                        <h3>124</h3>
+                        <p>Navy Pier <!-- <br><span>Next at o'clock</span> --></p>
+                        <h3><a href="">5 mins <br><span> and in 15, 25 mins</span></a></h3>
+                    </div>
+                </div>
+                <div class="route-data">
+                    <div class="direction">
+                        <h4>Northbound</h4>
+                    </div>
+                    <div>
+                        <h3>151</h3>
+                        <p>Devon & Clark <!-- <br><span>Next at o'clock </span> --></p>
+                        <h3><a href=""> Now <br><span>and in 16, 32 mins</span></a></h3>
+                    </div>
+                </div>
+                <div class="route-data">
+                    <div class="direction">
+                        <h4>Southbound</h4>
+                     </div>
+                    <div>
+                        <h3>J14</h3>
+                        <p>103rd & Stony Island <!-- <br><span>Next at o'clock</span> --></p>
+                        <h3><a href=""> 10 mins <br><span>and in 25 mins</span></a></h3>
+                    </div>
+                    <div id="divider"></div>
+                    <div>
+                        <h3>124</h3>
+                        <p>Navy Pier <!-- <br><span>Next at o'clock </span> --></p>
+                        <h3><a href=""> 10 mins <br><span>and in 20 mins</span></a></h3>
+                    </div>
+                </div>
+                <div class="route-data">
+                    <div class="direction">
+                        <h4>Reroute</h4>
+                    </div>
+                    <div>
+                        <h3>6x</h3>
+                        <p>Jackson Park Express</p>
+                        <h3><a href=""><!--  30 mins  --></a></h3>
+                    </div>
+                </div>
+                <div class="route-data">
+                    <div class="direction">
+                        <h4>Out of Service</h4>
+                    </div>
+                    <div>
+                        <h3>4</h3>
+                        <p>Cottage Groove </p>
+                        <h3><a href="">12:10am </a></h3>
+                    </div>
+                    <div id="divider"></div>
+                    <div>
+                        <h3>20</h3>
+                        <p>Madison </p>
+                        <h3><a href=""> 12:10am </a></h3>
+                    </div>
+                    <div id="divider"></div>
+                    <div>
+                        <h3>157</h3>
+                        <p>Streeterville & Taylor </p>
+                        <h3><a href=""> 6:00 am </a></h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <nav role=""> <!-- STICKY -->
+            <a href="index.html">Stations</a>
+            <a href="#">Lines</a>
+            <a href="#">Destination</a>        
+        </nav>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
