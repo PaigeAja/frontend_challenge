@@ -109,6 +109,7 @@ textarea {
    main {
     font-size: 100%;
     line-height: 1.5em;
+    margin-bottom: 3em;
    }
 
    a {
@@ -119,14 +120,22 @@ textarea {
    /* Font Styles */
 
    h3, h4, a{
-    font-family: 'Opens Sans', sans-serif;
-
+    font-family: 'Quicksand' , sans-serif;    
    }
 
    p {
-    font-family: 'Quicksand' , sans-serif;
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: lighter;
 
    }
+
+   /* Header Styles */
+    header {
+        position: sticky;
+        height: 22px;
+        top: 0;
+        background-color: #99B1BD;
+    }
 
    /* Map Styles*/
    .map {
@@ -150,8 +159,13 @@ textarea {
 
    .first a {
     color: inherit;
+    /*width: 50%;*/
    }
 
+   /*.first a:nth-of-type(2) {
+    padding-left: 3em;
+   }
+*/
    .first a.active {
     border-bottom: 3.5px solid #809EAB;
     
@@ -194,7 +208,7 @@ textarea {
 
    .route-data div h3 {
         width: 20%;
-        font-family: 'Quicksand', sans-serif;
+        /*font-family: 'Quicksand', sans-serif;*/
    }
 
    .route-data div h3:nth-of-type(2) {
@@ -203,11 +217,11 @@ textarea {
 
    .route-data div h3 a {
     color: #809EAB;
-    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
    }
 
    .route-data div h3 a span {
-    font-size: .5em;
+    font-size: .74em;
     /*color: #000;*/
    }
 
@@ -221,8 +235,10 @@ textarea {
    /* Footer Nav Styles */
 
     nav {
+        /*position: fixed;
+        top: 620px;*/
         background-color: #809EAB;
-        opacity: .9;
+        /*opacity: .9;*/
         width: 100%;
         height: 46px;
         display: flex;
@@ -334,16 +350,35 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-height: 667px) {
+    nav {
+        position: fixed;
+        top: 621px;
+    }
+}
 
-@media only screen and (min-width: 768px) {
-    /* Tablet View */
+@media only screen and (min-height:736px ) {
+    nav {
+        top: 690px;
+    }
+}
+
+@media only screen and (min-height: 812px) {
+    nav {
+        top: 765px;
+    }
+}
+
+
+/*@media only screen and (min-width: 768px) {
+     Tablet View 
     main {
         width: 90%;
         margin: 0 auto;
    }
 
 }
-
+*/
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
