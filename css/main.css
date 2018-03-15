@@ -120,7 +120,7 @@ textarea {
    /* Font Styles */
 
    h3, h4, a{
-    font-family: 'Quicksand' , sans-serif;    
+    font-family: 'Quicksand' , sans-serif;
    }
 
    p {
@@ -153,7 +153,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 0 1em;
+    margin: 0 1.5em;
     height: 44px;
    }
 
@@ -168,7 +168,7 @@ textarea {
 */
    .first a.active {
     border-bottom: 3.5px solid #809EAB;
-    
+
    }
 
    /* Route */
@@ -250,7 +250,7 @@ textarea {
      nav a {
        margin: 0 2em;
        color: #363636;
-        
+
    }
 
     nav a.active {
@@ -371,7 +371,7 @@ textarea {
 
 
 /*@media only screen and (min-width: 768px) {
-     Tablet View 
+     Tablet View
     main {
         width: 90%;
         margin: 0 auto;
